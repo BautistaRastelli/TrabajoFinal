@@ -107,7 +107,6 @@ border-radius: 8px;
 background-color: red;
 border: solid darkred;
 border-radius: 8px;
-margin-left: 75%;
  }
 
  p, .card-title{
@@ -121,7 +120,7 @@ background-size: cover;
 }
 
 img{
-    height: 80%
+    height: 80%;
 }
 
 .boton{
@@ -129,7 +128,7 @@ img{
 }
 
 .boton:hover{
-    text-shadow: 2px 2px 2px darkmagenta;
+    text-shadow: 1px 1px 1px coral;
     font-size:larger
 }
 
@@ -143,6 +142,9 @@ margin-bottom:none;
 .fotoRecomendacion {
     height: 50%;
     width:50% ;
+    border:solid;
+    border-radius:4%;
+    border-color:orange;
 }
 
 .botonrecomendacion {
@@ -157,7 +159,6 @@ button:hover{
 }
 
 .card-body{
-    background-color: green;
     color:white;
 }
 
@@ -172,4 +173,14 @@ svg{
     color:turquoise;
     margin-left:1%;
     margin-right:1%;
+}
+
+#sections{
+    margin:auto;
+    align-content: center;
+    margin-left:13%;
+}
+
+#info{
+    background-color: green;
 }
