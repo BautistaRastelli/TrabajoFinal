@@ -115,7 +115,7 @@ border-radius: 8px;
  }
 
  #menu{
-    background-image: url(./imagenes/lp1.jpg);
+    background-image: url("/imagenes/lp1.jpg");
 background-size: cover; 
 }
 
@@ -133,7 +133,7 @@ img{
 }
 
 #inicioAireLibre{
-    background-image: url(./imagenes/arboles.jpg);
+    background-image: url("/imagenes/arboles.jpg");
 background-size: cover; 
 margin-top:none;
 margin-bottom:none;
