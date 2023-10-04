@@ -145,6 +145,8 @@ margin-bottom:none;
     border:solid;
     border-radius:4%;
     border-color:orange;
+    height: 350px;
+    width: 600px;
 }
 
 .botonrecomendacion {
