@@ -117,6 +117,7 @@ border-radius: 8px;
  #menu{
     background-image: url("/imagenes/lp1.jpg");
 background-size: cover; 
+margin-top:0%;
 }
 
 img{
@@ -191,6 +192,9 @@ svg{
     background-color:coral;
     margin:auto;
     text-align: center;
+    margin-right:0%;
+    margin-bottom:0%;
+    height:100%;
 
 }
 
@@ -199,6 +203,8 @@ svg{
     margin:auto;
     text-align: center;
     color:white;
+    margin-left:0%;
+    height:100%;
 }
 
 input{
@@ -207,8 +213,31 @@ input{
     border-radius:5px;
 }
 
+::placeholder{
+    color:white;
+}
+
 #botonMail{
     border: 3px solid yellow;
     margin:auto;
-    padding:2%
+    padding:3%;
+    background-color: darkgoldenrod;
+    font-family:sans-serif;
+}
+
+footer{
+    background-color: orange;
+    margin-bottom:0%;
+    text-align: center;
+}
+
+.list-group-item{
+    background-color: grey;
+    margin:0%;
+}
+
+#calendario{
+    background-image: url(/imagenes/calendario2.webp);
+    background-size: cover;
+    margin-top:0%;
 }
