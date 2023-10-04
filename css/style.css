@@ -186,3 +186,29 @@ svg{
 #info{
     background-color: green;
 }
+
+#tu-aporte{
+    background-color:coral;
+    margin:auto;
+    text-align: center;
+
+}
+
+#newsletter{
+    background-color: chocolate;
+    margin:auto;
+    text-align: center;
+    color:white;
+}
+
+input{
+    background-color:orangered;
+    border: 2px solid black;
+    border-radius:5px;
+}
+
+#botonMail{
+    border: 3px solid yellow;
+    margin:auto;
+    padding:2%
+}
