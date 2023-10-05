@@ -237,7 +237,7 @@ footer{
 }
 
 #calendario{
-    background-image: url(/imagenes/calendario2.webp);
+    background-image: url(./imagenes/calendario2.webp);
     background-size: cover;
     margin-top:0%;
 }
