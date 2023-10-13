@@ -157,7 +157,7 @@ margin-bottom:none;
 }
 
 #inicioGastronomia{
-    background-image: url(/imagenes/bolsasCompras.jpg);
+    background-image: url(/imagenes/gastronomiaFondo.jpg);
 background-size: cover; 
 margin-top:0%;
 margin-bottom:none;
@@ -238,11 +238,11 @@ svg{
 }
 
 #infoCultura{
-    background-color: green;
+    background-color: darkgray;
 }
 
 #infoDeportes{
-    background-color: green;
+    background-color: orangered;
 }
 
 #tu-aporte{
