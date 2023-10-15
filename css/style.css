@@ -321,3 +321,64 @@ button{
     border: 1px solid black;
     border-radius:5px;
 }
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#footerAireLibre{
+    background-color: darkgreen;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+#footerCompras{
+    background-color: darkmagenta;
+    border: 3px solid magenta;
+    border-radius: 5px;
+}
+
+#footerArte{
+    background-color: darkred;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+#footerGastronomia{
+    background-color: darkgoldenrod;
+    border: 3px solid gold;
+    border-radius: 5px;
+}
+
+#footerCultura{
+    background-color: gray;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+}
+
+#footerDeportes{
+    background-color: orange;
+    border: 3px solid orangered;
+    border-radius: 5px;
+}
+
+#footerCalendario{
+    background-color:peru;
+    border: 3px solid indianred;
+    border-radius: 5px;
+}
+
+#footerTuAporte{
+    background-color: coral;
+    border: 3px solid darksalmon;
+    border-radius: 5px;
+}
+
+#footerNewsLetter{
+    background-color: chocolate;
+    border: 3px solid brown;
+    border-radius: 5px;
+}
+
+
