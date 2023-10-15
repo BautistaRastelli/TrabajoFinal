@@ -311,3 +311,13 @@ footer{
 a{
     text-decoration: none;
 }
+
+#lupa{
+    color:orangered
+}
+
+button{
+    background-color:rgb(235, 224, 224);
+    border: 1px solid black;
+    border-radius:5px;
+}

@@ -29,37 +29,28 @@
                       <a class="nav-link" href="./html/airelibre.html">Aire libre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Compras</a>
+                        <a class="nav-link" href="/html/compras.html">Compras</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Deportes</a>
+                        <a class="nav-link" href="/html/deportes.html">Deportes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Gastronomia</a>
+                        <a class="nav-link" href="/html/gastronomia.html">Gastronomía</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Cultura</a>
+                        <a class="nav-link" href="/html/cultura.html">Cultura</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Arte</a>
+                        <a class="nav-link" href="/html/arte.html">Arte</a>
                       </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tu aporte
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Mail</a></li>
-                        <li><a class="dropdown-item" href="#tu-aporte">Quiero contar mi experiencia</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                      </ul>
-                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#tu-aporte">Tu Aporte</a>
+                      </li>
+                    
                   </ul>
-                  <!--<form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                  </form>-->
                 </div>
               </div>
             </div>
@@ -142,7 +133,19 @@
       </div>
       <br>
       <br>
-      <h1 class="subtitulo"><strong>¿Qué tenés ganas de hacer?</strong></h1>
+      <h1 class="subtitulo"><strong>¿Ya tenés algo en mente?</strong></h1>
+    </div>
+    <div class="buscador">
+      <div class="container">
+        <div class="buscar-wrapper">
+            <input type="text" id="buscar" placeholder="Buscar" class="buscar-input">
+            <button onclick="buscar()" class="buscar-button"><svg id="lupa" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></button>
+        </div>
+        <ul id="resultados" class="results"></ul>
+    </div>
+    <h1 class="subtitulo"><strong>¿Que tenés ganas de hacer?</strong></h1>
     </div>
     <div class="secciones">
       <br>
@@ -175,7 +178,7 @@
         <div class="col"><div id="gastronomia" style="width: 13rem; height:14rem;">
           <img src="./imagenes/gastronomia.webp" class="card-img-top" alt="...">
              <div class="card-body">
-               <p class="card-text"><a class="boton" href="./html/gastronomia.html"><ins>Gastronomia<ins></ins></a></p></div>
+               <p class="card-text"><a class="boton" href="./html/gastronomia.html"><ins>Gastronomía<ins></ins></a></p></div>
          </div></div>
         
          <div class="col"><div id="cultura" style="width: 13rem; height:14rem;">
@@ -237,5 +240,6 @@
 <br>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
